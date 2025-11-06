@@ -1,0 +1,154 @@
+
+{
+  "login": {
+    "title": "मेडिफ़ाइ",
+    "patientLogin": "रोगी लॉगिन",
+    "doctorLogin": "डॉक्टर लॉगिन",
+    "emailLabel": "ईमेल पता",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "पासवर्ड",
+    "passwordPlaceholder": "••••••••",
+    "loginButton": "लॉग इन करें",
+    "demoHint": "यह एक डेमो है। कोई वास्तविक डेटा संग्रहीत नहीं है।",
+    "useDemoCreds": "डेमो क्रेडेंशियल्स का उपयोग करें।",
+    "error": "अमान्य ईमेल या पासवर्ड।"
+  },
+  "header": {
+    "notifications": "सूचनाएं",
+    "logout": "लॉग आउट",
+    "patientPortal": "रोगी पोर्टल",
+    "doctorPortal": "डॉक्टर पोर्टल"
+  },
+  "nav": {
+    "home": "होम",
+    "planner": "योजना",
+    "tracker": "ट्रैकर",
+    "beds": "बेड",
+    "meds": "दवाएं",
+    "doctorDashboard": "डैशबोर्ड",
+    "prescribe": "पर्ची",
+    "followUps": "फॉलो-अप",
+    "profile": "प्रोफ़ाइल"
+  },
+  "dashboard": {
+    "welcome": "आपका स्वागत है, उपयोगकर्ता!",
+    "helpToday": "मेडिफ़ाइ आज आपकी कैसे मदद कर सकता है?",
+    "getStarted": "शुरू करें",
+    "features": {
+      "budgetPlanner": {
+        "title": "बजट उपचार योजनाकार",
+        "description": "अपने बजट के आधार पर AI-संचालित उपचार योजना प्राप्त करें।"
+      },
+      "symptomTracker": {
+        "title": "दृश्य लक्षण ट्रैकर",
+        "description": "अपने कैमरे से चकत्ते या घाव जैसे दृश्य लक्षणों को ट्रैक करें।"
+      },
+      "bedFinder": {
+        "title": "रियल-टाइम बेड फाइंडर",
+        "description": "अपने आस-पास वास्तविक समय में उपलब्ध ICU और अस्पताल के बेड खोजें।"
+      },
+      "medicineChecker": {
+        "title": "दवा गुणवत्ता परीक्षक",
+        "description": "अपनी दवाओं के लिए विश्वास स्कोर जांचें और जेनेरिक विकल्प खोजें।"
+      },
+      "medicalRecords": {
+        "title": "चिकित्सा रिकॉर्ड",
+        "description": "अपने सभी स्वास्थ्य दस्तावेज़ एक ही स्थान पर अपलोड और प्रबंधित करें।"
+      },
+      "appointments": {
+        "title": "अपॉइंटमेंट्स",
+        "description": "आसानी से अपने डॉक्टर के अपॉइंटमेंट बुक और प्रबंधित करें।"
+      }
+    }
+  },
+  "budgetPlanner": {
+    "title": "बजट-आधारित उपचार योजनाकार",
+    "subtitle": "हमारे AI को आपकी स्वास्थ्य संबंधी चिंताओं के लिए संभावित लागतों को समझने में मदद करने दें।",
+    "budgetLabel": "1. आपका बजट क्या है?",
+    "selectedBudget": "चयनित बजट: ₹{budget}",
+    "symptomsLabel": "2. अपने लक्षणों का वर्णन करें",
+    "symptomsPlaceholder": "जैसे, 'मेरे पेट में दर्द और सिरदर्द है', 'मेरे सीने में दर्द हो रहा है'",
+    "generateButton": "मेरी उपचार योजना बनाएं",
+    "generatingButton": "योजना बना रहा है...",
+    "errorSymptom": "कृपया अपने लक्षणों का वर्णन करें।",
+    "errorGenerate": "एक योजना नहीं बना सका। कृपया पुन: प्रयास करें।",
+    "voiceListenStop": "सुनना बंद करें",
+    "voiceListenStart": "सुनना शुरू करें"
+  },
+  "symptomTracker": {
+    "title": "दृश्य लक्षण ट्रैकर",
+    "subtitle": "AI विश्लेषण के साथ त्वचा की स्थिति या घावों की प्रगति को ट्रैक करें।",
+    "disclaimerTitle": "महत्वपूर्ण अस्वीकरण",
+    "disclaimerText": "AI विश्लेषण केवल सूचनात्मक उद्देश्यों के लिए है और यह एक चिकित्सा निदान नहीं है। किसी भी चिकित्सा चिंता के लिए हमेशा एक योग्य स्वास्थ्य देखभाल पेशेवर से परामर्श करें।",
+    "addEntryTitle": "एक नई फोटो प्रविष्टि जोड़ें",
+    "takePhotoButton": "फोटो लें या अपलोड करें",
+    "notesPlaceholder": "कोई भी नोट जोड़ें (जैसे, दर्द का स्तर, खुजली)...",
+    "addToTimelineButton": "टाइमलाइन में जोड़ें",
+    "analyzingButton": "विश्लेषण हो रहा है...",
+    "timelineTitle": "आपकी प्रगति टाइमलाइन",
+    "timelineEmpty": "आपकी टाइमलाइन खाली है। शुरू करने के लिए एक फोटो जोड़ें।",
+    "aiAnalysisTitle": "AI विश्लेषण",
+    "yourNotesTitle": "आपके नोट्स",
+    "notesPlaceholderEmpty": "कोई नोट प्रदान नहीं किया गया।",
+    "analysisFailed": "AI विश्लेषण विफल रहा। कृपया पुनः प्रयास करें।",
+    "labels": {
+      "notes": "नोट्स",
+      "infectionRisk": "संक्रमण का खतरा",
+      "advice": "सलाह"
+    },
+    "riskLevels": {
+      "low": "कम",
+      "medium": "मध्यम",
+      "high": "उच्च"
+    }
+  },
+  "doctorPrescription": {
+    "title": "AI प्रिस्क्रिप्शन जेनरेटर",
+    "subtitle": "सुरक्षा जांच के साथ एक संरचित नुस्खा बनाने के लिए आवाज या पाठ का उपयोग करें।",
+    "symptomsLabel": "रोगी के लक्षण और महत्वपूर्ण बातें",
+    "symptomsPlaceholder": "जैसे, 'रोगी को गले में खराश, हल्का बुखार 99.5F, कोई खांसी नहीं है...'",
+    "generateButton": "पर्ची बनाएं",
+    "generatingButton": "बना रहा है...",
+    "draftTitle": "एआई-जनरेटेड प्रिस्क्रिप्शन ड्राफ्ट",
+    "diagnosis": "निदान",
+    "medications": "दवाएं",
+    "medicine": "दवा",
+    "dosage": "खुराक",
+    "instructions": "निर्देश",
+    "tests": "अनुशंसित परीक्षण",
+    "advice": "सलाह",
+    "warnings": "महत्वपूर्ण चेतावनियाँ",
+    "savings": "जेनेरिक विकल्प और बचत",
+    "editButton": "संपादित करें",
+    "finalizeButton": "अंतिम रूप दें और रोगी को भेजें"
+  },
+  "prescriptionForm": {
+    "symptomsTitle": "1. लक्षण और AI सुझाव",
+    "symptomsPlaceholder": "रोगी के लक्षण, महत्वपूर्ण बातें और इतिहास दर्ज करें...",
+    "aiRecommend": "AI से सुझाव लें",
+    "aiLoading": "सुझाव प्राप्त हो रहे हैं...",
+    "aiSuggestions": "AI सुझाव",
+    "aiError": "AI से अमान्य प्रतिक्रिया मिली। कृपया दवाएं मैन्युअल रूप से जोड़ें।",
+    "aiDiagnosis": "सुझाया गया निदान",
+    "add": "जोड़ें",
+    "addMedicineTitle": "2. दवा जोड़ें",
+    "medicineName": "दवा का नाम",
+    "medicinePlaceholder": "दवा खोजें...",
+    "strength": "ताकत",
+    "route": "मार्ग",
+    "frequency": "आवृत्ति",
+    "duration": "अवधि (दिन)",
+    "instructions": "निर्देश (वैकल्पिक)",
+    "addToPrescription": "पर्ची में जोड़ें",
+    "validationError": "कृपया सभी आवश्यक फ़ील्ड भरें।",
+    "currentPrescription": "3. वर्तमान पर्ची",
+    "medicine": "दवा",
+    "dosage": "खुराक",
+    "actions": "कार्रवाई",
+    "noMedsAdded": "अभी तक कोई दवा नहीं जोड़ी गई है।",
+    "finalizeButton": "पर्ची को अंतिम रूप दें",
+    "editMedication": "दवा संपादित करें",
+    "cancel": "रद्द करें",
+    "saveChanges": "बदलाव सहेजें"
+  }
+}

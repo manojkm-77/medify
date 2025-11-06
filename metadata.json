@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Medify - Smart Healthcare for Every Indian",
+  "description": "A revolutionary healthcare management system for India, called Medify, featuring a budget-based AI treatment planner, multilingual voice support, visual symptom tracking, medicine quality checker, and a real-time ICU/bed finder.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "login": {
+    "title": "Medify",
+    "patientLogin": "Patient Login",
+    "doctorLogin": "Doctor Login",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "loginButton": "Login",
+    "demoHint": "This is a demo. No real data is stored.",
+    "useDemoCreds": "Use demo credentials.",
+    "error": "Invalid email or password."
+  },
+  "header": {
+    "notifications": "Notifications",
+    "logout": "Logout",
+    "patientPortal": "Patient Portal",
+    "doctorPortal": "Doctor Portal"
+  },
+  "nav": {
+    "home": "Home",
+    "planner": "Planner",
+    "tracker": "Tracker",
+    "beds": "Beds",
+    "meds": "Meds",
+    "doctorDashboard": "Dashboard",
+    "prescribe": "Prescribe",
+    "followUps": "Follow-ups",
+    "profile": "Profile"
+  },
+  "dashboard": {
+    "welcome": "Welcome, User!",
+    "helpToday": "How can Medify help you today?",
+    "getStarted": "Get Started",
+    "features": {
+      "budgetPlanner": {
+        "title": "Budget Treatment Planner",
+        "description": "Get an AI-powered treatment plan based on your budget."
+      },
+      "symptomTracker": {
+        "title": "Visual Symptom Tracker",
+        "description": "Track your visual symptoms like rashes or wounds with your camera."
+      },
+      "bedFinder": {
+        "title": "Real-Time Bed Finder",
+        "description": "Find available ICU and hospital beds near you in real-time."
+      },
+      "medicineChecker": {
+        "title": "Medicine Quality Checker",
+        "description": "Check trust scores and find generic alternatives for your medicines."
+      },
+      "medicalRecords": {
+        "title": "Medical Records",
+        "description": "Upload and manage all your health documents in one place."
+      },
+      "appointments": {
+        "title": "Appointments",
+        "description": "Book and manage your doctor appointments easily."
+      }
+    }
+  },
+  "budgetPlanner": {
+    "title": "Budget-Based Treatment Planner",
+    "subtitle": "Let our AI help you understand potential costs for your health concerns.",
+    "budgetLabel": "1. What's your budget?",
+    "selectedBudget": "Selected Budget: ₹{budget}",
+    "symptomsLabel": "2. Describe your symptoms",
+    "symptomsPlaceholder": "e.g., 'I have stomach pain and a headache', 'Mere chest mein pain ho raha hai'",
+    "generateButton": "Generate My Treatment Plan",
+    "generatingButton": "Generating Plan...",
+    "errorSymptom": "Please describe your symptoms.",
+    "errorGenerate": "Could not generate a plan. Please try again.",
+    "voiceListenStop": "Stop listening",
+    "voiceListenStart": "Start listening"
+  },
+  "symptomTracker": {
+    "title": "Visual Symptom Tracker",
+    "subtitle": "Track the progress of skin conditions or wounds with AI analysis.",
+    "disclaimerTitle": "Important Disclaimer",
+    "disclaimerText": "The AI analysis is for informational purposes only and is NOT a medical diagnosis. Always consult a qualified healthcare professional for any medical concerns.",
+    "addEntryTitle": "Add a New Photo Entry",
+    "takePhotoButton": "Take or Upload Photo",
+    "notesPlaceholder": "Add any notes (e.g., pain level, itchiness)...",
+    "addToTimelineButton": "Add to Timeline",
+    "analyzingButton": "Analyzing...",
+    "timelineTitle": "Your Progress Timeline",
+    "timelineEmpty": "Your timeline is empty. Add a photo to get started.",
+    "aiAnalysisTitle": "AI Analysis",
+    "yourNotesTitle": "Your Notes",
+    "notesPlaceholderEmpty": "No notes provided.",
+    "analysisFailed": "AI analysis failed. Please try again.",
+    "labels": {
+      "notes": "Notes",
+      "infectionRisk": "Infection Risk",
+      "advice": "Advice"
+    },
+    "riskLevels": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    }
+  },
+  "doctorPrescription": {
+    "title": "AI Prescription Generator",
+    "subtitle": "Use voice or text to generate a structured prescription with safety checks.",
+    "symptomsLabel": "Patient's Symptoms & Vitals",
+    "symptomsPlaceholder": "e.g., 'Patient presents with sore throat, mild fever 99.5F, no cough...'",
+    "generateButton": "Generate Prescription",
+    "generatingButton": "Generating...",
+    "draftTitle": "AI-Generated Prescription Draft",
+    "diagnosis": "Diagnosis",
+    "medications": "Medications",
+    "medicine": "Medicine",
+    "dosage": "Dosage",
+    "instructions": "Instructions",
+    "tests": "Recommended Tests",
+    "advice": "Advice",
+    "warnings": "Critical Warnings",
+    "savings": "Generic Alternatives & Savings",
+    "editButton": "Edit",
+    "finalizeButton": "Finalize & Send to Patient"
+  },
+  "prescriptionForm": {
+    "symptomsTitle": "1. Symptoms & AI Recommendations",
+    "symptomsPlaceholder": "Enter patient symptoms, vitals, and history... (e.g., 'Fever 101F, sore throat, running nose for 2 days')",
+    "aiRecommend": "Get AI Suggestion",
+    "aiLoading": "Getting suggestions...",
+    "aiSuggestions": "AI Suggestions",
+    "aiError": "AI returned an invalid format or failed. Please add medicines manually.",
+    "aiDiagnosis": "Suggested Diagnosis",
+    "add": "Add",
+    "addMedicineTitle": "2. Add Medicine",
+    "medicineName": "Medicine Name",
+    "medicinePlaceholder": "Search for a medicine...",
+    "strength": "Strength",
+    "route": "Route",
+    "frequency": "Frequency",
+    "duration": "Duration (days)",
+    "instructions": "Instructions (optional)",
+    "addToPrescription": "Add to Prescription",
+    "validationError": "Please fill all required fields.",
+    "currentPrescription": "3. Current Prescription",
+    "medicine": "Medicine",
+    "dosage": "Dosage",
+    "actions": "Actions",
+    "noMedsAdded": "No medicines added yet.",
+    "finalizeButton": "Finalize Prescription",
+    "editMedication": "Edit Medication",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes"
+  }
+}
